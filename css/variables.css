@@ -1,0 +1,55 @@
+@media (max-width:1130px){
+    .container main .secao{
+        width: 30.25vw;
+    }
+}
+
+@media (max-width:768px){
+    body{
+        font-size: 13.86px;
+    }
+    
+    .container{
+        height: fit-content;
+        gap: 35px;
+        margin: 25px 0px;
+    }
+
+    .container main{
+        flex-wrap: wrap;
+    }
+
+    .container main div{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container main .secao{
+        width: 306px;
+        height: 230px;
+        padding: 25px;
+    }
+}
+
+@media (max-width:375px){
+    body{
+        font-size: 13px;
+    }
+
+    .container main .secao{
+        width: 300px;
+    }
+}
+
+@media (max-width:355px){
+    .container .cabecalho h1{
+        font-size: 23.1px;
+    }
+}
+
+ @media (max-width:320px){
+    .container main .secao{
+        width: 280px;
+    }
+} 

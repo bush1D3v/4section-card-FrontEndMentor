@@ -1,0 +1,99 @@
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100vh;
+    width: 100vw;
+}
+
+.cabecalho{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cabecalho *{
+    margin: 0px 10px;
+}
+
+.container h1,
+.container p{
+    color: hsl(229, 6%, 66%);
+}
+
+.container h1 strong,
+.container h2{
+    color: hsl(234, 12%, 34%);
+}
+
+.container h1{
+    font-weight: 200;
+    line-height: 40px;
+}
+
+.container .cabecalho h1 strong{
+    display: block;
+}
+
+.container main{
+    width: 100%;
+    max-height: 100%;
+}
+
+.container main{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container main .secao{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 210px;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(81, 104, 97, 0.5);
+}
+
+.container main .secao.supervisor{
+    background: linear-gradient(hsl(180, 62%, 55%) 2%, hsl(0, 0%, 98%) 0%);
+}
+
+.container main .secao.team-builder{
+    background: linear-gradient(hsl(0, 78%, 62%) 2%, hsl(0, 0%, 98%) 0%);
+    align-self: flex-start;
+}
+
+.container main .secao.karma{
+    background: linear-gradient(hsl(34, 97%, 64%) 2%, hsl(0, 0%, 98%) 0%);
+    align-self: flex-end;
+}
+
+.container main .secao.calculator{
+    background: linear-gradient(hsl(212, 86%, 64%) 2%, hsl(0, 0%, 98%) 0%);
+}
+
+.container main div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container main section img{
+    height: fit-content;
+    width: fit-content;
+    margin: auto 0px 0px auto;
+}
